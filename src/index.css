@@ -27,3 +27,85 @@ code {
   padding: 10px;
   display: block;
 }
+.login-container {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  align-items: center;
+  background-color: tan;
+  justify-content: center;
+  margin: 0 auto;
+}
+.tabs-container > button:nth-of-type(1) {
+  width: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 10px;
+  left: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+}
+.tabs-container > button:nth-of-type(2) {
+  width: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  padding: 10px;
+  right: 0;
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+}
+.tabs-container {
+  background-color: rgba(0, 128, 0, 0.132);
+  width: 50%;
+  height: 60%;
+  text-align: center;
+  position: relative;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 0;
+}
+.bg-active {
+  background-color: rgba(0, 128, 0, 0.722);
+  color: whitesmoke;
+}
+.bg-inactive {
+  background-color: #ccc;
+  color: #2b2b2b6b;
+}
+.tabs-container > .loginfont {
+  font-size: 18px;
+  border: 2px solid black;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  top: 20.3%;
+}
+.tabs-container > .loginfont > span {
+  background-color: aqua;
+  position: relative;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%);
+}
+.tabs-container > .registerfont {
+  font-size: 18px;
+  border: 2px solid black;
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  top: 20.3%;
+}
+.tabs-container > .registerfont > span {
+  background-color: orange;
+  position: relative;color: green;
+  top: 50%;
+  display: block;
+  transform: translateY(-50%);
+}
